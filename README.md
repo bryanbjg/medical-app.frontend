@@ -1,27 +1,55 @@
-# MedicalAppFrontend
+# 📅 Aplicación de Citas Médicas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+## 🚀 Instalación y Configuración
 
-## Development server
+```sh
+# Clonar el repositorio
+```git clone https://github.com/usuario/repo.git```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Entrar al proyecto
+```cd repo```
 
-## Code scaffolding
+# Instalar dependencias
+```npm install```
+# 📌 Reglas de Código
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# 📑 ESLint y SonarLint
 
-## Build
+1- Se usa ESLint para mantener un código limpio.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2- Se requiere JSDoc en todas las funciones y clases.
 
-## Running unit tests
+3- No se permite el uso de any.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4- Se implementan principios SOLID.
 
-## Running end-to-end tests
+5- Se recomienda instalar SonarLint en VS Code.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# 🚦 Reglas para Commits
+Usamos Husky para validar ESLint antes de hacer un commit.
 
-## Further help
+Los commits deben seguir la convención Conventional Commits:
+```feat: Nueva funcionalidad.```
+```fix: Corrección de errores.```
+```docs: Documentación.```
+```chore: Mantenimiento.```
+```test: Pruebas.```
+```refactor: Refactorización.```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Ejemplo de commit válido:
+
+```git commit -m "feat(auth): implement login system"```
+
+# ✅ Contribuciones
+
+```Fork```el repositorio.
+Crea una rama con tu feature:
+
+```git checkout -b feature-nueva```
+
+Asegúrate de cumplir las reglas de ESLint.
+
+Haz commit siguiendo la convención:
+
+```git commit -m "feat(api): mejorar respuesta JSON"```
+```Pull Request a main.```
