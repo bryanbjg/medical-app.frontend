@@ -1,5 +1,4 @@
-# 📅 Aplicación de Citas Médicas
-
+# 📅 Aplicación de Reservas para restaurantes
 ## 🚀 Instalación y Configuración
 
 ```sh
